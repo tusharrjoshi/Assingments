@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ********FILES******************************************** -->
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <!-- **************************************************** -->
+    <title>Aristo template</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" id="navi-toggle" class="navigation__checkbox" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">
+          <span class="navigation__icon-span">&nbsp;</span>
+          <span class="navigation__icon-span">&nbsp;</span>
+          <span class="navigation__icon-span">&nbsp;</span>
+          <span class="navigation__icon-span">&nbsp;</span>
+          <span class="navigation__icon-span">&nbsp;</span>
+          <span class="navigation__icon-span">&nbsp;</span>
+        </span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#head" class="navigation__link">Header</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#services" class="navigation__link">Services</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">About Us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header id="head" class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Welcome </span>
+          <span class="heading-primary--sub">To Comapny's World</span>
+        </h1>
+        <a href="#services" class="btn btn--white btn--animated"
+          >Discover Products</a
+        >
+      </div>
+    </header>
+    <!-- ***********SERVICES SECTION********************************************** -->
+    <section id="services" class="c-section">
+      <h2 class="c-section__title"><span>Our Services</span></h2>
+      <ul class="c-services">
+        <li class="c-services__item">
+          <h3>Search Engine Optimization</h3>
+          <p>
+            SEO is always at the top of any digital marketing agency services
+            list. That’s because it affects all your online marketing
+            strategies. SEO is vital to ensure your website shows up in online
+            searches.
+          </p>
+        </li>
+        <li class="c-services__item">
+          <h3>Search Engine Marketing</h3>
+          <p>
+            While SEM and SEO both rely on keywords that’s where the similarity
+            ends. SEM strategies involve paying a search engine to place your
+            website in front of customers. It’s closely related to pay-per-click
+            advertising.
+          </p>
+        </li>
+        <li class="c-services__item">
+          <h3>Website Strategy</h3>
+          <p>
+            Your website is your business’s online shop window. As such, it’s
+            the most important part of your online marketing efforts. There are
+            so many things about your website that can damage your SEO and
+            credibility online.
+          </p>
+        </li>
+        <li class="c-services__item">
+          <h3>Social Media Marketing Services</h3>
+          <p>
+            To succeed at social media you need a thorough knowledge of each
+            platform you’re using. Different social media networks appeal to
+            different audiences, so you can reach out to the exact clientele to
+            suit your business aims.
+          </p>
+        </li>
+        <li class="c-services__item">
+          <h3>Email Outreach</h3>
+          <p>
+            Email outreach is one of the oldest digital marketing strategies but
+            it’s still one of the best ways to generate leads.Managing an email
+            contact list, email personalization, and targeted product offers is
+            an essential part of email marketing.
+          </p>
+        </li>
+        <li class="c-services__item">
+          <h3>Quality Link Building</h3>
+          <p>
+            Link building is an important part of any SEO strategy and it’s
+            risky business for the uninitiated. Google places severe penalties
+            on spammy links and can even suspend your website if they suspect
+            foul play.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <!-- *************CONTACTS*********************************** -->
+    <div id="contact" class="contacts">
+      <h2 class="one">Get Quotes <span class="now"> Now</span></h2>
+
+      <form>
+        <div>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            required
+            placeholder="Enter Your Name"
+          />
+        </div>
+        <div>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            required
+            placeholder="Enter Your Email"
+          />
+        </div>
+        <div>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Enter Your Message"
+          ></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
